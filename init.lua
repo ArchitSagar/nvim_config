@@ -75,5 +75,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    -- vim.cmd()
+    vim.cmd "hi GitSignsAdd guibg=NONE"
+    vim.cmd "hi GitSignsCHANGE guibg=NONE"
+    vim.cmd "hi GitSignsDelete guibg=NONE"
   end,
 }
